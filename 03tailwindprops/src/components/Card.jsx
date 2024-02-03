@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Card({username, btnTxt="click Here"}) {
   console.log("props:", username);
   return (
